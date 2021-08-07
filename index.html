@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".intro_btn").click(function () {
+          $("html, body").animate(
+            { scrollTop: $(".intro").offset().top },
+            1000
+          );
+          return false;
+        });
+        $(".story_btn").click(function () {
+          $("html, body").animate(
+            { scrollTop: $(".story").offset().top },
+            1000
+          );
+          return false;
+        });
+        $(".journal_btn").click(function () {
+          $("html, body").animate(
+            { scrollTop: $("#journal").offset().top },
+            1000
+          );
+          return false;
+        });
+        $(".stores_btn").click(function () {
+          $("html, body").animate(
+            { scrollTop: $(".stores").offset().top },
+            1000
+          );
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="main_img">
+        <div class="txt_part">
+          <p>A stylish splurge<br />for women</p>
+        </div>
+        <div class="cont">
+          <div class="wrap">
+            <div class="logo">
+              <a href="#"><img src="./img/test.png" alt="" /></a>
+            </div>
+            <div class="menu">
+              <ul>
+                <li class="intro_btn"><a href="#">INTRO</a></li>
+                <li class="story_btn"><a href="#">STORY</a></li>
+                <li class="journal_btn"><a href="#">JOURNAL</a></li>
+                <li class="stores_btn"><a href="#">STORES</a></li>
+              </ul>
+            </div>
+            <div class="sns">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/fb_icon.png"
+                      onmouseover="this.src='./img/fb_icon_hover.png'"
+                      onmouseout="this.src='./img/fb_icon.png'"
+                      alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/insta_icon.png"
+                      onmouseover="this.src='./img/insta_icon_hover.png'"
+                      onmouseout="this.src='./img/insta_icon.png'"
+                      alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/youtube_icon.png"
+                      onmouseover="this.src='./img/youtube_icon_hover.png'"
+                      onmouseout="this.src='./img/youtube_icon.png'"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="intro">
+        <div class="title">
+          <p class="Vibes">Intro</p>
+        </div>
+        <div class="wrap">
+          <div class="box">
+            <p>ANIMAL</p>
+            <div class="img_part"></div>
+            <h1>
+              cashmere values every life on this planet.<br />
+              All our products are made from naturally-shed hair without harming
+              the animals. We set our friends free at all times, providing them
+              with high-quality grass only.
+            </h1>
+          </div>
+          <div class="box">
+            <p>LOCAL PRODUCERS</p>
+            <div class="img_part"></div>
+            <h1>
+              cashmere believes in mutual growth with everyone engaged in our
+              journey. We support our local produc-ers’ economic independence
+              through reliable buying practice and brand creation.
+            </h1>
+          </div>
+          <div class="box">
+            <p>ENVIRONMENT</p>
+            <div class="img_part"></div>
+            <h1>
+              cashmere cares foremost about our nature. From attentive pasture
+              management to zerowaste technol-ogy, ixn every step of our process
+              protecting enviro-nment is our top priority. Buy one le cashmere,
+              adopt one tree.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="story">
+        <div class="title">
+          <p class="Vibes">Story</p>
+        </div>
+        <div class="wrap">
+          <div class="box">
+            <div class="img_part"></div>
+            <div class="txt_part">
+              <h2>Precision in consideration of ecology</h2>
+              <p>
+                We produce products that reflect the most up-to-date information
+                such as new construction methods, environmental changes,
+                farmland environments, and the global trend of the organic
+                movement.<br />
+                We believe that organic fabrics made through these efforts can
+                be recognized for their precise and reliable quality.
+              </p>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="txt_part">
+              <h2>Pure cotton that everyone is happy</h2>
+              <p>
+                In principle, fair trade aims to improve producers' lives and
+                become independent by providing jobs to those who are socially
+                and economically vulnerable and purchasing raw materials and
+                products at an appropriate price.<br />
+                When you make products with the right organic products rather
+                than to support someone, the relationship of fair trade is
+                naturally formed.
+              </p>
+            </div>
+            <div class="img_part"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="shop">
+      <div class="wrap">
+        <div class="txt_part">
+          <h1 class="Vibes">Trendy Look</h1>
+          <p>Trendy style and soft touch</p>
+          <div class="btn">
+            <a href="#">shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="journal">
+      <div class="top">
+        <h2 class="Vibes">Journal</h2>
+        <div class="wrap">
+          <div class="box">
+            <div class="inner_box">
+              <div class="img_part"></div>
+              <h1>NATURE</h1>
+            </div>
+            <div class="txt_part">
+              <h2>WHERE WE WISH TO RETURN</h2>
+              <p>
+                - Cashmere goats : 100% pas-ture-raised<br />
+                - The total area of pasture manage-ment : 10ha<br />
+                - The number of trees planted today M 5,000 trees
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="inner_box">
+              <div class="img_part"></div>
+              <h1>MATERIALS</h1>
+            </div>
+            <div class="txt_part">
+              <h2>QUALITY, NOT QUANTITY</h2>
+              <p>
+                - Finer than 15μm, longer than 41mm naturally-shed hair<br />
+                - 292 local herder families benefited from cashmere's reliable
+                buying prac-tice<br/>
+                - Asia Development Bank Certified 
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="inner_box">
+              <div class="img_part"></div>
+              <h1>YARN & FABRIC</h1>
+            </div>
+            <div class="txt_part">
+              <h2>CRAFTING AUTHENTICITY</h2>
+              <p>
+                - GOTS (Global Organic Textile Standard) Certified<br>
+                - OEKO-TEX Standard 100 Certified<br>
+                - Sustainable Fibre Alliance Member<br>
+                 - In over 1,300 different colors
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="inner_box">
+              <div class="img_part"></div>
+              <h1>PRODUCTS</h1>
+            </div>
+            <div class="txt_part">
+              <h2>MINIMAL, AND YET ENRICHING</h2>
+              <p>
+                - Research-based fabric production - safe for all sensitive
+                skins (baby weara-ble)<br />
+                - woven in crafsmanship<br />
+                - Zero-Waste Technology (whole-garment knitwear)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stores">
+        <h2 class="Vibes">Stores</h2>
+        <div class="wrap">
+          <div class="box_01">
+            <div class="img_part">
+              <div class="txt_part">
+                <a href="#">WOMEN</a>
+              </div>
+            </div>
+          </div>
+          <div class="wrap_02">
+            <div class="box_02">
+              <div class="img_part">
+                <div class="txt_part">
+                  <a href="#">MEN</a>
+                </div>
+              </div>
+            </div>
+            <div class="box_03">
+              <div class="img_part">
+                <div class="txt_part">
+                  <a href="#">KIDS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer_menu">
+          <div class="logo"><img src="./img/footer_logo.jpg" alt="" /></div>
+          <ul>
+            <li><a href="#">NEWS & NOTICE</a></li>
+            <li><a href="#">PRIVACYE</a></li>
+            <li><a href="#">presentive@cashmere.com</a></li>
+            <li>+82 2 588 0880</li>
+          </ul>
+          <div class="sns">
+            <ul>
+              <li>
+                <a href="#"><img src="./img/fb_icon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/insta_icon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/youtube_icon.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyrights">
+          <p>COPYRIGHTS ⓒ CASHMERE.LTD. ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
